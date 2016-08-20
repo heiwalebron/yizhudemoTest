@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <!-- 普通底部导航 -->
+
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/re_rfid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTabClicked"
+            android:padding="3dp" >
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ib_rfid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#ffffff"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_img1" />
+
+                <TextView
+                    android:id="@+id/tv_rfid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ib_rfid"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="射频"
+                    android:textColor="#9A9A9A"
+                    android:textSize="12sp" />
+
+                />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTabClicked"
+            android:padding="3dp" >
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ib_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#ffffff"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_img2" />
+
+                <TextView
+                    android:id="@+id/tv_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ib_data"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="数据统计"
+                    android:textColor="#9A9A9A"
+                    android:textSize="12sp" />
+
+                 />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_wifi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTabClicked"
+            android:padding="3dp" >
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ib_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#ffffff"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_img3" />
+
+                <TextView
+                    android:id="@+id/tv_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ib_wifi"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="数据传输"
+                    android:textColor="#9A9A9A"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTabClicked"
+            android:padding="3dp" >
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ib_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#ffffff"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bottom_img4" />
+
+                <TextView
+                    android:id="@+id/tv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ib_more"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="更多"
+                    android:textColor="#9A9A9A"
+                    android:textSize="12sp" />
+
+                 />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

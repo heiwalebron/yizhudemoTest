@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>男士</item>
+        <item>女士</item>
+    </string-array>
+    <string-array name="department">
+        <item>皮肤科</item>
+        <item>神经科</item>
+        <item>妇科</item>
+        <item>放射科</item>
+        <item>药科</item>
+        <item>护士科</item>
+        <item>眼科</item>
+        <item>牙科</item>
+        <item>内科</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="occupation">
+        <item>医生</item>
+        <item>护士</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="education">
+        <item>博士生</item>
+        <item>研究生</item>
+        <item>本科生</item>
+        <item>专科生</item>
+        <item>其他</item>
+    </string-array>
+</resources>
